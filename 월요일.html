@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            background-color:rgb(255, 255, 255);
+            
+        }
+
+        #search {
+            
+            text-align:center;
+        }
+        
+        #search2 {
+            font-size:  3em;
+            border: 20px double rgb(182, 96, 96);
+            
+        }
+
+        .day {
+            text-align: center;
+            background-color: rgb(226, 169, 159);
+            font-size: 30px;
+            padding: 3px;
+            margin: 1em;
+        }
+
+        a {
+            text-decoration-line:none ;
+            
+        }
+        
+        .day>li {
+            display: inline-block;
+        }
+
+        .day>li>a {
+            color: rgb(0, 0, 0);
+            font-family: kotra;
+            src:url(/css/폰트/코트라_볼드체/3.\ 코트라\ 볼드체/KOTRA_BOLD.ttf)
+        }
+
+        .A>h1>ul>li {
+            display: inline-block;
+        }
+
+        .A {
+            background-color: rgb(241, 172, 172);
+        }
+
+        h1 {
+            text-align: center;
+        }
+        
+        #main {
+            font-size: 50px;
+            color: rgb(0, 0, 0);
+            text-shadow: 0px 0px 6px rgb(0, 0, 0);
+        }
+
+        #m {
+            margin-right: 5em;
+            font-size: 70px;
+            color: rgb(255, 255, 255);
+        }
+
+        #w {
+            margin-left: 3em;
+            font-size: 80px;
+            cursor: pointer;
+        }
+        #w>a {
+            color: rgb(255, 255, 255);
+        }
+        #w>a:hover {
+            color:rgb(248, 72, 72);
+        }
+
+        #s {
+            margin-right: 2em;
+            font-size: 60px;
+            color:rgb(255, 255, 255);
+        }
+
+        .sm {
+            border: 6px solid rgb(0, 0, 0);
+            margin: 4px;
+            padding: 5px;
+            width: 200px;
+            height: 200px; 
+            
+        }
+
+        .ss>a {
+            padding: 5em;
+            margin:5em;
+            display: inline-block;
+            border: 3px solid black;
+        }
+
+        .day>a:hover {
+            color: rgb(255, 236, 231);
+            
+        }
+        #link {
+            background-color: rgb(236, 204, 204) ;
+            border: 15px groove rgb(202, 134, 134);
+            margin: 20px;
+            height: 50em;
+            overflow: scroll;
+            font-family: kotra;
+            src:url(/css/폰트/코트라_볼드체/3.\ 코트라\ 볼드체/KOTRA_BOLD.ttf)
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+
+<tr>
+
+    <div >
+        <h1 class="A" id="main">
+            <span id="m">My</span><br>
+            <span id="w"><a href="/index.html"> weekly</a></span><br>
+            <span id="s">source</span>
+        </h1>
+    </div>
+
+</header>
+
+<section>
+
+<div id="search">
+    <form action="/search.html" method="get">
+    <input type="search" placeholder="search" id="search2">
+    <input type="submit" value="검색" id="search2"> 
+    </form>
+</div>
+
+
+<br>
+
+<header>
+
+<div>
+
+<form action="">
+<ul type="1" class="day" >
+
+
+    <li class="day" id="mon"><a href="./월요일.html"> 월요일 </a> </li>
+
+    <li class="day" id="tus"><a href="./화요일.html"> 화요일 </a> </li>
+
+    <li class="day" id="wed"><a href="./수요일.html"> 수요일 </a> </li>
+
+    <li class="day" id="thu"><a href="./목요일.html"> 목요일 </a> </li>
+
+    <li class="day" id="fri"><a href="./금요일.html"> 금요일 </a> </li>
+
+    <li class="day" id="sat"><a href="./토요일.html"> 토요일 </a> </li>
+
+    <li class="day" id="sun"><a href="./일요일.html"> 일요일 </a> </li>
+
+
+</ul>
+</form>
+
+</div>
+
+</header>
+
+<article>
+
+<ul>
+    
+    <div id="link">
+        <table >
+    <li><span >
+        <a href="https://www.google.co.kr/"><img src="/lost-main/image/구글.png" alt="구글이미지" class="sm" id="one"></a>
+    </span>
+        <span class="ss">
+            <a href="https://www.google.com/search?q=%EB%B2%88%EC%97%AD%EA%B8%B0&sxsrf=ALiCzsbjwLcsP-OSJ8bm_swinOlSKYg0uw%3A1655217746303&ei=Up6oYq2WEpeCmAXL6JCgDw&oq=%EB%B2%88%EC%97%AD&gs_lcp=Cgdnd3Mtd2l6EAEYADIECCMQJzIECCMQJzIICAAQgAQQsQMyBQgAEIAEMgsIABCABBCxAxCDATIICAAQgAQQsQMyCwgAEIAEELEDEIMBMgUIABCABDIFCAAQgAQyBQgAEIAEOgsILhCABBCxAxCDAToECC4QA0oECEEYAEoECEYYAFAAWOMEYIYLaABwAHgAgAGWAYgB1AaSAQMwLjaYAQCgAQHAAQE&sclient=gws-wiz"  id="i">1순위 링크  </a></span>
+            <span class="ss"><a href=""  id="ii">구글 서브 링크2</a></span>
+            <span class="ss"><a href=""  id="ii">구글 서브 링크3</a></span>
+        
+    </li> 
+    <br>
+    
+    <li><span >
+        <a href="https://www.youtube.com/"> <img src="/lost-main/image/유튜브.png" alt="유브트이미지" class="sm" id="to"></a>
+    </span> 
+        <span class="ss"><a href=""  id="ii">유튜브 서브링크</a></span>
+        <span class="ss"><a href=""  id="ii">유튜브 서브링크</a></span>
+        <span class="ss"><a href=""  id="ii">유튜브 서브링크</a></span>
+    </li>
+    <br>
+
+    <li><span >
+        <a href="https://www.pinterest.co.kr/"> <img src="/lost-main/image/핀터레스트.png" alt="핀터레스트이미지" class="sm" id="tr"></a>
+    </span> 
+        <span class="ss"><a href=""  id="iii">핀터레스트</a></span>
+        <span class="ss"><a href=""  id="iii">핀터레스트</a></span>
+        <span class="ss"><a href=""  id="iii">핀터레스트</a></span>
+    </li>
+    <br>
+
+    <li><span >
+        <a href="https://www.jvision.ac.kr/vision/main/"><img src="/lost-main/image/비전대.png" alt="비전대 이미지" class="sm" id="fo"></a>
+    </span> 
+        <span class="ss"><a href=""  id="vi">비전대 사이트</a></span>
+        <span class="ss"><a href=""  id="vi">비전대 사이트</a></span>
+        <span class="ss"><a href=""  id="vi">비전대 사이트</a></span>
+    </li>
+    <br>
+
+    <li><span >
+        <a href=""><img src="" alt="" class="sm" id="fi"></a>
+    </span> 
+        <span class="ss"><a href=""  id="v">부아아악</a></span>
+        <span class="ss"><a href=""  id="v">부아아악</a></span>
+        <span class="ss"><a href=""  id="v">부아아악</a></span>
+    </li>
+
+        </table>
+    </div>
+
+</ul>
+
+</article>
+
+</section>
+
+<footer>
+    
+</footer>
+</body>
+</html>
